@@ -1,4 +1,26 @@
+body {
+    background-color: #0a101d;
+}
 h1 {
-    font-size: 10em;
-    color: brown;
+    font-size: 4em;
+}
+h1, h2, h3, p, li {
+    color: #ffffff;
+}
+header {
+    background-color: #1f2634;
+}
+#main {
+    background-color: #202024;
+}
+header, #main {
+    margin: 10px auto;
+    max-width: 850px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+header h1, header p {
+    display: inline-block;
+    margin: 0;
+    color: white;
 }
